@@ -1,0 +1,84 @@
+html{
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+}
+body{
+  display: flex;
+  margin: 0px;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.pai{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  align-content: center;
+  background-color: black;
+  margin: 0px;
+  height: auto;
+  flex-direction: column;
+}
+.titulo_site{
+  text-align: center;
+  color: white;
+  padding: 10px 5px;
+  font-size: 60px;
+}
+.nav{ 
+  background-color: black;
+}
+.navliste{
+  display: flex;         /*deixar os elementos, dentro do grupo pai, flexiveis */
+  list-style: none;
+  color: aqua;
+  padding: 10px 5px;
+  margin: 0px;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight:bold;
+}
+.conteudo{
+  background-color: blanchedalmond;
+  align-items: normal;
+  margin: 0px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+}
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  cursor: auto;
+}
+  
+a:link:active, a:visited:active {
+  color: (internal value);
+}
+footer{
+  background-color:  rgb(0, 0, 0);
+  text-align: center;
+  color:rgb(255, 255, 255);
+  padding: 10px 0px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(174, 0, 255);
+  border-radius: 10px;
+  color: white;
+}
+  
+td, th {
+  border: 3px solid #39c044;
+  text-align: left;
+  padding: 8px;
+}
+  
+tr:nth-child(even) {
+  background-color: rgb(102, 28, 136);
+}

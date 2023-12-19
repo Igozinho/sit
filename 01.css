@@ -27,37 +27,45 @@ html{
     padding: 10px 5px;
     font-size: 60px;
   }
-  .navi{ 
+  nav{
     background-color: black;
+  }
+  .navi{
     display: flex;         /*deixar os elementos, dentro do grupo pai, flexiveis */
-    list-style: none;
     color: aqua;
     padding: 10px 5px;
     margin: 0px;
     justify-content: space-around;
     font-size: 20px;
     font-weight:bold;
-    flex-direction: column;
+    flex-direction: row;
+    list-style: none;
   }
   .conteudo{
     background-color: blanchedalmond;
-    align-items: normal;
+    align-items: center;
     margin: 0px;
     height: auto;
     display: flex;
     flex-direction: column;
     padding: 0px 15px;
-    list-style-type: none;
   }
-  a:link, a:visited {
-    color:aqua;
-    text-decoration: none;
-    cursor: auto;
-  }
-    
-  a:link:active, a:visited:active {
-    color: (internal value);
-  }
+li{
+  list-style: none;
+  font-size: 30px;
+}
+.ni{
+  font-size: 35px;
+}
+    a:link, a:visited {
+      color:aqua;
+      text-decoration: none;
+      cursor: auto;
+    }
+      
+    a:link:active, a:visited:active {
+      color: (internal value);
+    }
   footer{
     background-color: gray;
     text-align: center;

@@ -72,3 +72,13 @@ li{
     color:rgb(255, 255, 255);
     padding: 10px 0px;
   }
+  button{
+    display: flex;
+    font-size: large;
+    background-color: rgb(25, 255, 25);
+  }
+  .to{
+    display: flex;
+    background-color: aliceblue;
+    align-items: self-start;
+  }

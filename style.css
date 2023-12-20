@@ -8,6 +8,7 @@ body{
   justify-content:space-between;
   flex-wrap: wrap;
   flex-direction: column;
+  font-family: "arial black";
 }
 .pai{
   display: flex;
@@ -27,7 +28,7 @@ body{
   padding: 10px 5px;
   font-size: 60px;
 }
-.nav{ 
+.nav{
   background-color: black;
 }
 .navliste{
@@ -71,6 +72,7 @@ table {
   background-color: rgb(174, 0, 255);
   border-radius: 10px;
   color: white;
+  font-size: medium;
 }
   
 td, th {
@@ -81,4 +83,16 @@ td, th {
   
 tr:nth-child(even) {
   background-color: rgb(102, 28, 136);
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 40px
+}
+h3{
+  font-size: 40px
+}
+p{
+  font-size: x-large;
 }
